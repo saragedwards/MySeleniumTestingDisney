@@ -33,10 +33,10 @@ public class AddMagicKingdomTicketsToCart extends DriverInstantiation {
 		//Select number of Child Tickets
 		Tickets.selectNumChildTickets(3);
 		
-		//Select ticket type
+		//Select Ticket type
 		Tickets.selectTicketType("park hopper plus");
 		
-		//Click Continue (add tickets to cart)
+		//Click Continue (Add tickets to cart)
 		Tickets.addTicketsToCart();
 		
 		//Verify Cart Contents

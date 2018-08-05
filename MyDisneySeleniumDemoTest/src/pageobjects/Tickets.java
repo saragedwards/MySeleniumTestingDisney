@@ -19,7 +19,7 @@ public class Tickets extends DriverInstantiation {
 		
 	}
 
-	//Select number of adult tickets
+	//Select number of Adult tickets
 	public static void selectNumAdultTickets(int numTickets) {
 
 		for (int x=0; x<numTickets;x++) {
@@ -28,7 +28,7 @@ public class Tickets extends DriverInstantiation {
 		}
 	}
 	
-	//Select number of child tickets
+	//Select number of Child tickets
 	public static void selectNumChildTickets(int numTickets) {
 		
 		for (int x = 0; x<numTickets;x++) {

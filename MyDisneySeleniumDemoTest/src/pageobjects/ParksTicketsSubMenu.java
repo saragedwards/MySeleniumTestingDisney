@@ -9,7 +9,7 @@ import base.DriverInstantiation;
 
 public class ParksTicketsSubMenu extends DriverInstantiation {
 	
-	//Method to click the Magic Kingdom link under Parks & Tickets
+	//Method to click the Magic Kingdom link under Parks and Tickets
 	public static void clickMagicKingdom() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, 15);

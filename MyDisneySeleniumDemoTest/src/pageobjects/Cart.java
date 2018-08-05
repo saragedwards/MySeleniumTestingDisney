@@ -16,7 +16,7 @@ public class Cart extends DriverInstantiation{
 		
 	}
 
-	//Get the number of childtickets displaying in the cart
+	//Get the number of child tickets displaying in the cart
 		public static String getNumChildTix() {
 			
 			numChildTix = driver.findElementByXPath("//input[contains(@id,'CHILD')]").getAttribute("value");
